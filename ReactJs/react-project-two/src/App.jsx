@@ -3,6 +3,8 @@ import { user } from "../src/components/Props/user";
 import Counter from "./components/Hooks/useState/Counter";
 import UserForm from "./components/Hooks/useReducer/UserForm";
 import "./App.css";
+import Toggle from "./components/Hooks/customeHook/Toggle";
+import ContextApi from "./components/Hooks/ContextAPI/ContextApi";
 
 function App() {
   return (
@@ -14,7 +16,11 @@ function App() {
 
       {/* <Counter /> */}
 
-      <UserForm />
+      {/* <UserForm /> */}
+
+      {/* <Toggle /> */}
+
+      <ContextApi />
     </>
   );
 }
